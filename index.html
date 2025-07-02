@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>3 álbuns de Gilberto</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: #f79898;
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      background-color: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .galeria {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap; /* quebra a linha se a tela for pequena */
+    }
+
+    .album {
+      background-color: white;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .album img {
+      width: 300px;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 4px;
+    }
+
+    .album h2 {
+      margin-top: 10px;
+      font-size: 18px;
+    }
+
+   footer {
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      font-size: 10px; /* letras miúdas */
+   }
+
+  </style>
+
+</head>
+<body>
+
+  <div class="container">
+    <h1>3 Álbuns de Gilberto Gil</h1>
+    <p>Uma coletânea pessoal.</p>
+  </div>
+
+  <div class="galeria">
+    <div class="album">
+        <a href="refazenda.html">
+      <img src="imagens/gilberto-gil-refazenda.jpeg" alt="Capa do álbum Refazenda">
+        </a>
+      <h2>Refazenda</h2>
+    </div>
+
+    <div class="album">
+        <a href="expresso.html">
+      <img src="imagens/gilberto-gil-2222.jpeg" alt="Capa do álbum Expresso 2222">
+        </a>
+      <h2>Expresso 2222</h2>
+    </div>
+
+    <div class="album"> <!--PARA QUE A IMAGEM FIQUE CLICKAVEL E DIRECIONE PARA OUTRA PAG, DEVE ENVOLVE-LA COM A TAG A EX: <a href="o index da prox pg"> <img> </a>-->
+      <a href="realce.html">
+      <img src="imagens/realce.jpg" alt="Capa do álbum Realce">
+      </a>
+      <h2>Realce</h2>
+    </div>
+  </div>
+
+<footer>
+    © 2025 - Site feito por Jac Lellis. Todos os direitos reservados.
+    </footer>
+
+</body>
+</html>

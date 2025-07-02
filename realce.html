@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Realce - Álbum</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      font-family: Arial, sans-serif;
+      background-color: #f79898;
+    }
+
+    .container {
+      display: flex;
+      height: 100vh;
+      width: 100%;
+    }
+
+    .imagem-album {
+      flex: 2; /* ocupa 2/3 da tela */
+      background-image: url('imagens/realce vinyl.jpg'); /* sua imagem aqui */
+      background-size: cover;
+      background-position: center;
+    }
+
+    .detalhes {
+      flex: 1; /* ocupa 1/3 da tela */
+      background: white;
+      border-radius: 15px 0 0 15px;
+      padding: 30px;
+      overflow-y: auto;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    h1 {
+      margin-top: 0;
+      font-family: Arial, cursive;
+      font-size: 40px;
+      color: #333;
+    }
+
+    ul {
+      padding-left: 60px;
+      flex-grow: 1; /* permite que a lista ocupe espaço disponível */
+      margin-bottom: 20px;
+    }
+
+    li {
+      font-size: 18px;
+      line-height: 1.8;
+      color: #555;
+    }
+
+    /* Estilo para a seção de miniaturas */
+    .miniaturas {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 10px;
+    }
+
+    .miniaturas a img {
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
+      border-radius: 8px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.2);
+      cursor: pointer;
+      transition: transform 0.3s ease;
+      border: 2px solid transparent;
+    }
+
+    .miniaturas a img:hover {
+      transform: scale(1.1);
+      border-color: #f79898;
+    }
+
+    footer {
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      font-size: 10px; /* letras miúdas */
+   }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="imagem-album"></div>
+
+    <div class="detalhes">
+      <h1>Realce (1979)</h1>
+      <ul>
+        <li>Realce</li>
+        <li>Sarará miolo</li>
+        <li>Superhomem - a canção</li>
+        <li>Tradição</li>
+        <li>Marina</li>
+        <li>Rebento</li>
+        <li>Toda menina baiana</li>
+        <li>Logunedé</li>
+        <li>Macapá (Bonus Track)</li>
+        <li>Acertei no milhar (Bonus Track)</li>
+        <li>Senhor delegado (Bonus Track)</li>
+        <li>Escurinho (Bonus Track)</li>
+        <li>Minha nega na janela (Bonus Track)</li>
+        <li>A situação do escurinho (Bonus Track)</li>
+        <li>Samba rubro-negro (O mais querido) (Bonus Track) </li>
+
+      </ul>
+
+      <!-- Miniaturas para navegar -->
+      
+      
+      <div class="miniaturas">
+        <a href="index.html" title="Realce">
+          <img src="imagens/Captura de tela 2025-07-02 065334.png" alt="Realce">
+        </a>
+        <a href="expresso.html" title="Expresso 2222">
+          <img src="imagens/gilberto-gil-2222.jpeg" alt="Expresso 2222">
+        </a>
+        <a href="refazenda.html" title="Refazenda">
+          <img src="imagens/gilberto-gil-refazenda.png" alt="Refazenda">
+        </a>
+        
+      </div>
+
+    </div>
+  </div>
+
+  <footer>
+    © 2025 - Site feito por Jac Lellis. Todos os direitos reservados.
+    </footer>
+
+</body>
+</html>
