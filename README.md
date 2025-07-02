@@ -19,20 +19,16 @@ Este site apresenta uma coletânea de três álbuns do Gilberto Gil, com imagens
 - Propriedades visuais como `background-color`, `border-radius`, `box-shadow`, `padding`, `margin`, `font-family` e `font-size`.
 - Imagens de capa usando `background-image`.
 
-### 3. Google Fonts
-- Fonte personalizada **Limelight** para títulos.
-- Aplicação via classe CSS `.limelight`.
-
-### 4. Navegação entre páginas
+### 3. Navegação entre páginas
 - Tags `<a>` com imagens para links clicáveis.
 - Miniaturas alinhadas horizontalmente com flexbox.
 - Efeito hover nas miniaturas para interatividade.
 
-### 5. Design responsivo e usabilidade
+### 4. Design responsivo e usabilidade
 - Uso de `flex-wrap` para ajuste em telas pequenas.
 - Rodapé com texto pequeno.
 
-### 6. Organização do código
+### 5. Organização do código
 - HTML e CSS juntos em `<style>` para simplicidade.
 - Uso de classes para reaproveitamento de estilos.
 
