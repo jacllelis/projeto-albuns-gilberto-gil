@@ -1,5 +1,8 @@
 # Site de Álbuns de Gilberto Gil
 
+🔗 **Acesse o site:**  
+👉 https://jacllelis.github.io/projeto-albuns-gilberto-gil/
+
 ## Descrição
 
 Este site apresenta uma coletânea de três álbuns do Gilberto Gil, com imagens, listas das músicas e navegação entre as páginas dos álbuns. O design é simples, responsivo e focado na experiência do usuário.
